@@ -7,6 +7,7 @@ from .. import Widget
 
 from ._button import BaseButton, Button, ToggleButton, RadioButton, CheckBox
 from ._lineedit import LineEdit, MultiLineEdit
+from ._textareaedit import TextAreaEdit
 from ._label import Label
 from ._group import GroupWidget
 from ._iframe import IFrame
@@ -20,5 +21,7 @@ from ._tree import TreeWidget, TreeItem
 from ._dropdown import ComboBox, DropdownContainer
 
 from ._plotwidget import PlotWidget
+from ._plotstock import PlotStock
+from ._plotsmartms import PlotSmartMS
 from ._plotly import PlotlyWidget
 from ._bokeh import BokehWidget
