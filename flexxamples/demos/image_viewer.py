@@ -38,7 +38,7 @@ videos = {}
 locations = {}
 
 for sheet_name in result_list:
-    df[sheet_name] = pd.read_excel(r'C:\Users\mtk13028\Desktop\{}.xlsx'.format(sheet_name))
+    df[sheet_name] = pd.read_excel(r'C:\Users\{}\Documents\GitHub\AI-Country\{}.xlsx'.format(os.environ['USERNAME'], sheet_name))
     # Collect videos that look like they can be read in html5
     videos[sheet_name] = {}
     for index, row in df[sheet_name].iterrows():
